@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+#inicio {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+#navegacion {
+  display: flex;                
+  align-items: center;          
+  justify-content: flex-start;  
+  gap: 20px;                   
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+}
+
+
+.logotw {
+  height: 50px;
+  width: auto;
+}
+
+#navegacion a {
+  color: white;
+  font-family: "Cinzel", serif;
+  font-size: 18px;
+  transition: color 0.3s ease; 
+}
+#navegacion a:hover {
+  color: #00ff66; 
+}
+#navegacion div {
+  margin-right: auto; 
+}
+
+.VideoFondo {
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.introduccion {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: flex-end;     
+  padding-right: 50px;      
+  padding-bottom: 50px;      
+  gap: 20px;                 
+}
+
+.overlay {
+    position: absolute;
+  background: rgba(4, 5, 3, 0.5);
+  border-radius: 20px;
+  top: 120px;
+  left: 970px;
+  width: 360px;
+  height: 450px ;
+  z-index: 1;
+}
+.logo {
+  position: relative;
+  margin-right: 50px;
+  width: 190px;
+  z-index: 2;
+}
+.I-H-LOGO {
+  font-family: Cinzel, serif;
+  font-size: 23px;
+  z-index: 2;
+}
+.I-T-logo {
+font-family: "Nanum Myeongjo", serif;
+  font-size: 15px;
+  z-index: 2;
+  text-align: center;       /* mantiene centrado el párrafo */
+  letter-spacing: 4px; 
+  margin: 10px 0;
+}
+
+.espacio{
+  height: 20px;
+  width: 100%;
+}
+#integrantes {
+  background-color: black;  
+}
+.I-H {
+  text-align: center;
+  font-family: Cinzel, serif;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 0;
+  width: 100vw;         
+  height: 100vh;          
+}
+
+.slider img {
+  flex: 0 0 100vw;          
+  height: auto;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.slider::-webkit-scrollbar {
+  display: none; 
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.slider-nav a {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+
+
+#DORMITORIO {
+  background-color: black; 
+}
+.parallax {
+  position: relative;
+  background-image: url(dormitorioo.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 200px 20px;
+}
+.overlay-dormitorio {
+  position: relative;  /* 🔑 hace que la imagen absoluta se posicione respecto a este overlay */
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 860px;
+  max-width: 90%;
+  height: auto;
+  padding: 40px;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  margin: 0 auto;  
+
+}
+.overlay-dormitorio{
+ 
+  margin-bottom: 20px;
+}
+.LGDIASO {
+  position: absolute;
+  top: -180px;
+  left: 200%;
+  transform: translateX(-50%);
+  width: 180px;
+  z-index: 2;
+}
+.D-HISTO-H{
+  text-align: center;
+  font-family: Cinzel, serif;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.TEXTO-ONE p {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+#CREDITOS {
+  background-color: black;
+}
+.image{
+  display:block;
+  margin: 0 auto;
+  width: 500px;
+}
